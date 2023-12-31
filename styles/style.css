@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Dana-Light;
+    src: url(../fonts/DanaFaNum-Regular.ttf) format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Dana-Regular;
+    src: url(../fonts/DanaFaNum-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Dana-Medium;
+    src: url(../fonts/DanaFaNum-Medium.ttf) format('truetype');
+    font-weight: 500;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dana-Regular';
+}
+
+
+.fw-light{
+    font-weight: 300;
+}
+
+.fw-normal{
+    font-weight: 400;
+}
+
+
+.fw-medium{
+    font-weight: 500;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-80{
+    width: 80%;
+}
+
+.h-100{
+    height: 100%;
+}
+
+.h-80{
+    height: 80%;
+}
+
+/* form{
+    margin-top: 20rem!important;
+} */
+
+
+input:focus{
+    background-color: #7c90c9;
+    outline: #7c90c9;
+}
+
+
+.margin-2{
+    margin: 0.2rem!important;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+
+.white{
+    color: white;
+}
+
+.bgc-primary{
+    background-color: #7c90c9;
+}
+
+.bgc-secondary{
+    background-color: #c8d5ed;
+}
+
+.button{
+    background-color: #3d57a7;
+    color: white;
+}
+
+
+.button:hover{
+    background-color: #c8d5ed;
+}

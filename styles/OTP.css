@@ -1,0 +1,24 @@
+.box{
+    background-color: #c8d5ed;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    /* width: 6%;
+    height: 2.6rem; */
+    border-radius: 0.5rem;
+    border: 0;
+}
+
+
+.box:focus{
+    outline: #c8d5ed;
+    background-color: #c8d5ed;
+}
+
+.list-style li{
+    list-style-type: none;
+}
+
+
+.list-style{
+    padding: 0;
+}
